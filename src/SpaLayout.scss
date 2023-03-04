@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  // this removes a bit of ugly spacing added to the entire doc that would otherwise cause scrolling of SPA
+  overflow: hidden;
+}
+
+.layoutContainer {
+  display: grid;
+  // MDM This should match the HTML row layout (header main footer)
+  grid-template-rows: auto 1fr auto;
+  // If a second footer is desired
+  // grid-template-rows: auto 1fr auto auto;
+
+  height: 100vh; // REQD for vertical alignment
+}
+
+.layoutContainer header {
+  background: lightblue;
+  grid-template-rows: min-content; // size to content
+}
+
+.layoutContainer main {
+  // background: red;
+  overflow-y: auto;
+  grid-template-rows: auto; // expand to fill
+}
+
+.layoutContainer footer {
+  background: lightgray;
+  grid-template-rows: min-content;
+}
+
+// If a second footer is desired
+// .layoutContainer footer.second {
+//   background: yellow;
+// }
+
+.hfBox {
+  margin: 0.4rem;
+  text-align: center;
+}
+
+.hfButton {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

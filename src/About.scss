@@ -1,0 +1,22 @@
+.aboutHorizontalCenteredGrid {
+  display: grid;
+  grid-template-rows: auto;
+  height: 100%; // REQD to expand row
+  overflow-y: auto;
+}
+
+.aboutVerticalCenteredFlex {
+  display: flex;
+  height: 100%; // REQD to get vertical alignment
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutBox {
+  display: grid;
+  padding: 1rem;
+}
+
+.aboutBox ul {
+  margin: 0;
+}

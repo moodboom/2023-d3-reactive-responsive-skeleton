@@ -1,0 +1,28 @@
+.chartAndControlsFlex {
+  display: flex;
+  height: 100%; // REQD to get vertical alignment
+  align-items: center;
+  justify-content: center;
+}
+
+.chartGrid {
+  // we are a flex child
+  height: 100%; // REQD to expand rows
+  width: 100%; // REQD to expand cols
+
+  // we are also a grid parent
+  display: grid;
+  // NOTE: These are dynamically set in chartPage.jsx
+  // grid-template-columns: 1fr 1fr 1fr;
+  // grid-template-rows: 1fr;
+}
+
+.buttonContainer {
+  width: min-content;
+  display: grid;
+  align-items: center;
+}
+.chartButton {
+  margin: 0.3rem;
+  margin-left: 1rem;
+}
