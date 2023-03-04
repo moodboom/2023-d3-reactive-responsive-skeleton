@@ -2,11 +2,7 @@
 
 A skeleton project with several Observable D3 examples presented as responsive charts.  More chart patches welcome!
 
-<p align="center">
-    <a href="https://bitpost.com/news/2023/2023-d3-reactive-responsive-skeleton/">
-        ![](https://raw.github.com/moodboom/2023-d3-reactive-responsive-skeleton/master/resources/screenrecord-2023-03-04.gif)
-    </a>
-</p>
+![](https://raw.github.com/moodboom/2023-d3-reactive-responsive-skeleton/master/resources/screenrecord-2023-03-04.gif)
 
 ## Installing
 
