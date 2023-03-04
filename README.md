@@ -4,7 +4,7 @@ A skeleton project with several Observable D3 examples presented as responsive c
 
 <p align="center">
     <a href="https://bitpost.com/news/2023/2023-d3-reactive-responsive-skeleton/">
-        <img src="https://raw.github.com/moodboom/2023-d3-reactive-responsive-skeleton/master/resources/screenshot-2023-03-04.png" alt="2023-d3-reactive-responsive-skeleton" />
+        <img src="https://raw.github.com/moodboom/2023-d3-reactive-responsive-skeleton/master/resources/screenrecord-2023-03-04.m4v" alt="2023-d3-reactive-responsive-skeleton" />
     </a>
 </p>
 
