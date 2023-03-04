@@ -50,4 +50,5 @@ I love D3 dearly, and that love came from browsing Mike Bostock's fantastic exam
 
 ## License
 Copyright (c) 2023 Michael Behrns-Miller
+
 Licensed under the MIT license.
