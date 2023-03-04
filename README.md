@@ -24,6 +24,10 @@ The /src/charts folder contains several charts that were cut and pasted from Obs
 
 That said, the project attempts to use best practices of <a href="https://vitejs.dev/">Vite</a>, <a href="https://reactjs.org/">React</a>, <a href="https://reactrouter.com">React Router</a>, <a href="https://react-bootstrap.github.io/">React Bootstrap</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS layout using grid/flex</a>.  The goal is to give you a modern JavaScript framework with npm module support and page routing, responsiveness, hot-reloading, build tooling for tree shaking, polyfill.  I may update these dependencies as the world churns on (as it always does).
 
+NOTE: I left SSR out for now.  It didn't feel like SSR was a standard, mature and simple core Vite feature yet.  I'll definitely revisit once I feel comfortable with it.  See:
+* https://vitejs.dev/guide/ssr.html
+* https://github.com/vitejs/awesome-vite#ssr
+
 ## Contributing your favorite chart example
 
 It's so easy!
