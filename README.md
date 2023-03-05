@@ -2,7 +2,7 @@
 
 A skeleton project with several Observable D3 examples presented as responsive charts.  More chart patches welcome!
 
-![](https://raw.github.com/moodboom/2023-d3-reactive-responsive-skeleton/master/resources/screenrecord-2023-03-04.gif)
+## <a href="https://astonishing-genie-751ad1.netlify.app/">Live Demo</a>
 
 ## Installing
 
